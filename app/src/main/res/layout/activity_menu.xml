@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/maison"
+    android:orientation="vertical"
+    tools:context="com.proximedia.securityhome.Menu">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvEtat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:gravity="center"
+                android:text="ETAT"
+                android:textColor="#34C924"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ret"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:drawable/ic_menu_revert" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/open"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.37"
+                android:background="@drawable/open" />
+
+            <ImageButton
+                android:id="@+id/close"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.35"
+                android:background="@drawable/close" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

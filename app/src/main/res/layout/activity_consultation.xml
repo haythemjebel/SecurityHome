@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mm"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.proximedia.securityhome.Consultation">
+
+
+    <TextView
+        android:id="@+id/tvbnj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bonjour Dans Notre Application"
+        android:textColor="#096A09"
+        android:textSize="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="60dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:id="@+id/btn_retour"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.35"
+            android:background="@android:drawable/ic_menu_revert"
+            android:layout_marginLeft="300dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/utilisat"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="0.21"
+                android:background="@drawable/usersett" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp" >
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/fenetre"
+                android:background="@drawable/fffff" />
+
+            <ImageButton
+                android:id="@+id/btnhome"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.37"
+                android:background="@drawable/home2" />
+
+            <ImageButton
+                android:id="@+id/btn_porte"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.09"
+                android:background="@drawable/plp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imgtr"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/cccc"
+                android:scaleType="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

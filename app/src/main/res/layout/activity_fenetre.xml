@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.proximedia.securityhome.Fenetre">
+
+    <TextView
+        android:id="@+id/fene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FENETRE"
+        android:textColor="#FF0921"
+        android:textSize="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="120dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/open"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.37"
+            android:background="@drawable/fenet1" />
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/fenet2" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/retour"
+        android:layout_alignBottom="@+id/fene"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="40dp"
+        android:background="@android:drawable/ic_menu_revert" />
+
+</RelativeLayout>
